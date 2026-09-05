@@ -8,7 +8,7 @@ echo "" > /etc/apt/sources.list.d/ceph.sources
 echo "Types: deb" >> /etc/apt/sources.list.d/ceph.sources
 echo "URIs: http://download.proxmox.com/debian/ceph-tentacle" >> /etc/apt/sources.list.d/ceph.sources
 echo "Suites: trixie" >> /etc/apt/sources.list.d/ceph.sources
-echo "Components: pve-no-subscription" >> /etc/apt/sources.list.d/ceph.sources
+echo "Components: no-subscription" >> /etc/apt/sources.list.d/ceph.sources
 echo "Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg" >> /etc/apt/sources.list.d/ceph.sources
 
 
